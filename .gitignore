@@ -1,0 +1,22 @@
+!**/src/main/**
+!**/src/test/**
+
+# Gradle
+.gradle
+build/
+gradlew.bat
+gradle-app.setting
+# Avoid ignoring Gradle wrapper jar file & Gradle wrappper properties
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Logs
+/*.log
+
+# IntelliJ IDEA
+.idea
+.shelf
+*.iws
+*.iml
+*.ipr
+out/
